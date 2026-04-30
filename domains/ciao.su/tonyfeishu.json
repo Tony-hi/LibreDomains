@@ -1,0 +1,31 @@
+{
+  "description": "飞书邮箱绑定，用于多维表格自动化发邮件",
+  "owner": {
+    "name": "Tony-hi",
+    "github": "Tony-hi",
+    "email": "3636799538@qq.com"
+  },
+  "records": [
+    {
+      "type": "MX",
+      "name": "@",
+      "content": "mx1.feishu.cn",
+      "priority": 10,
+      "ttl": 300
+    },
+    {
+      "type": "MX",
+      "name": "@",
+      "content": "mx2.feishu.cn",
+      "priority": 20,
+      "ttl": 300
+    },
+    {
+      "type": "MX",
+      "name": "@",
+      "content": "mx3.feishu.cn",
+      "priority": 30,
+      "ttl": 300
+    }
+  ]
+}
